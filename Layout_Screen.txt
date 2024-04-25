@@ -1,0 +1,36 @@
+{ label_black } [ field_1                                      ]( button       )
+{ label_red   } [ field_2                                                      ]
++--grid-------------------------------------------------++-list----------------+
+|                                                       ||                     |
+|                                                       ||                     |
+|                                                       ||                     |
+|                                                       ||                     |
+|                                                       ||                     |
+|                                                       ||                     |
+|                                                       ||                     |
+|                                                       ||                     |
+|                                                       ||                     |
+|                                                       ||                     |
+|                                                       ||                     |
+|                                                       |+---------------------+
+|                                                       |+-toolbar-------------+
+|                                                       ||                     |
+|                                                       ||                     |
+|                                                       ||                     |
+|                                                       ||                     |
+|                                                       ||                     |
+|                                                       ||                     |
+|                                                       ||                     |
+|                                                       ||                     |
+|                                                       ||                     |
+|                                                       ||                     |
+|                                                       ||                     |
+|                                                       ||                     |
+|                                                       ||                     |
++-------------------------------------------------------++---------------------+
+label_black->type=label,red=0,green=0,blue=0,label=Hello world!
+label_red->type=label,red=0,green=128,blue=0,label=Hello other!
+grid->type=grid-view,columns=5,rows=10
+list->type=list,items=One;Two;Three
+button->label=Click me!,red=0,green=0,blue=128
+toolbar->type=toolbar,columns=2,items=Jeff:Jeff;Mr_Nogami:Mr_Nogami;Cousin_Jorge:Cousin_Jorge
